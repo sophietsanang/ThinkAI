@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', serif;
+}
+
+/* Container to split the page */
+.split-background {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Top half */
+.top-half {
+    background-color: #323f75;
+    height: 600vh;
+    width: 100%;
+}
+
+/* Bottom half */
+
+
+h1 {
+    font-size: 3em; 
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    margin-top: -30px;
+    
+}
+
+h3 {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h6 {
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+h5 {
+    color: black;
+    text-align: center;
+    margin-top: -30px;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+
+
+.boxes-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    gap: -170px;
+}
+
+/* Base styles for each box */
+.box {
+    width: 24%;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.box-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    padding-top: -5px;
+    
+}
+
+.box1 {
+    background-color: white;
+    border: 2px solid;
+}
+
+.box3 .box-title {
+    padding-top: 20px;
+}
+
+
+
+/* Box 2 - Example Style */
+.box2 {
+    background-color: white;
+    border: 2px solid;
+}
+
+
+
+.box3 {
+    background-color: white;
+    border: 2px solid;
+}
+
+.box-image {
+    width: 70%;
+    height: auto;
+    border-radius: 8px;
+    
+}
+
+.box2 .box-image {
+    width: 95%;  /* Increase the width to make the image larger */
+    height: auto; /* Keep the aspect ratio of the image */
+    
+}
+
+.box3 .box-image {
+    width: 95%; 
+    height: auto; 
+    padding-top: 20px;
+    
+}
+
+/* Description text inside each box 
+.box-description {
+    font-size: 1.2em;
+    color: #333;
+} */
+
+
