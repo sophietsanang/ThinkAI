@@ -3,7 +3,6 @@ body {
     font-family: 'Nunito', serif;
 }
 
-/* Container to split the page */
 .split-background {
     display: flex;
     flex-direction: column;
@@ -16,8 +15,6 @@ body {
     height: 600vh;
     width: 100%;
 }
-
-/* Bottom half */
 
 
 h1 {
@@ -122,6 +119,7 @@ h5 {
 .box2 {
     background-color: white;
     border: 2px solid;
+    
 }
 
 
@@ -137,19 +135,19 @@ h5 {
     border-radius: 8px;
 }
 
-/*
+
 .box2 .box-image {
-    width: 95%;   
+    width: 100%;   
     height: auto;  
     
 }
 
 .box3 .box-image {
-    width: 95%; 
+    width: 100%; 
     height: auto; 
     padding-top: 20px;
     
-} */
+} 
 
 
 
@@ -243,14 +241,16 @@ h5 {
 }
 
 .lesson-bullet-title {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 5px;
+    margin: 0 auto 20px auto;
+    padding-left: 60px;
   }
   
   .lesson-content-box-second ul {
-    padding-left: 20px;
+    padding-left: 120px;
     margin-bottom: 15px;
     list-style-type: disc;
   }
@@ -335,26 +335,34 @@ h5 {
     display: block;
   }
 
-  .next-button-container {
-    text-align: right;
+  .nav-button-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 40px;
+    width: 100%;
+    max-width: 1550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 5px; /* Optional: adds side padding */
   }
   
-  .next-button {
+  .nav-button {
     display: inline-block;
-    color: black; /* black text */
+    color: black;
     padding: 12px 24px;
     font-size: 1rem;
     font-weight: bold;
     text-decoration: none;
-    border: 3px solid black; /* gives it a button outline */
+    border: 2px solid black;
     border-radius: 100px;
-    background-color: transparent; 
+    background-color: transparent;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
   
-  .next-button:hover {
-    background-color: #444;
+  .nav-button:hover {
+    background-color: black;
+    color: white;
   }
   
     
