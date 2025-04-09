@@ -208,7 +208,153 @@ h5 {
     color: #ccc;
 }
   
-  .divider {
+.divider {
     color: yellow;
     margin: 0 10px;
+}
+
+.lesson-content-box {
+    background-color: white;
+    color: black;
+    max-width: 1550px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Nunito', serif;
+    line-height: 1.6;
+}
+
+
+.lesson-section-title {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+.lesson-subheading {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #323f75;
+}
+
+.lesson-bullet-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
   }
+  
+  .lesson-content-box-second ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+    list-style-type: disc;
+  }
+  
+  .lesson-content-box-second p {
+    text-align: left;
+    margin: 0 auto 20px auto;
+    max-width: 40000px;
+  }
+
+.lesson-content-box p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: black;
+  text-align: left;
+  padding: 0 60px;
+}
+
+.lesson-content-box-second {
+    background-color: white;
+    color: black;
+    max-width: 1550px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Nunito', serif;
+    line-height: 1.6;
+    border: 2px solid black;
+   
+}
+
+.lesson-video {
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+  
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    text-decoration: underline;
+    color: white;
+    margin: 0 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    min-width: 260px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    top: 100%;
+    left: 0;
+  }
+  
+  .dropdown-content a {
+    color: #323f75;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: normal;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .next-button-container {
+    text-align: right;
+    margin-top: 40px;
+  }
+  
+  .next-button {
+    display: inline-block;
+    color: black; /* black text */
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: 3px solid black; /* gives it a button outline */
+    border-radius: 100px;
+    background-color: transparent; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .next-button:hover {
+    background-color: #444;
+  }
+  
+    
