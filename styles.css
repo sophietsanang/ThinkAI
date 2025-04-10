@@ -74,12 +74,12 @@ h5 {
 
 .boxes-container {
     display: flex;
-    justify-content: center; /* keeps boxes centered */
+    justify-content: center; 
     align-items: flex-start;
     gap: 30px;
-    flex-wrap: nowrap; /* prevents boxes from stacking */
+    flex-wrap: nowrap; 
     padding: 20px;
-    overflow-x: auto; /* optional: lets the row scroll on small screens */
+    overflow-x: auto; 
 }
 
 
@@ -92,7 +92,7 @@ h5 {
     border-radius: 15px;
     text-align: center;
     transition: transform 0.3s ease;
-    flex-shrink: 0; /* prevents shrinking */
+    flex-shrink: 0; 
 }
 
 
@@ -120,6 +120,40 @@ h5 {
     background-color: white;
     border: 2px solid;
     
+}
+
+.quiz-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+.question {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.answers button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border: 2px solid black;
+  background-color: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: 20px;
+}
+
+.answers button:hover {
+  background-color: #f0f0f0;
 }
 
 
@@ -344,7 +378,7 @@ h5 {
     max-width: 1550px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 5px; /* Optional: adds side padding */
+    padding: 0 5px; 
   }
   
   .nav-button {
@@ -361,6 +395,42 @@ h5 {
   }
   
   .nav-button:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .feedback {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    text-align: center;
+    min-height: 50px;          
+  }
+
+  .next-container {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+
+  .next-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+  }
+  
+  .next-btn:hover {
     background-color: black;
     color: white;
   }
