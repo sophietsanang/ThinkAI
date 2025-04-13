@@ -434,5 +434,20 @@ h5 {
     background-color: black;
     color: white;
   }
+
+  .source-list {
+    padding-left: 40px;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  
+  .source-list a {
+    color: #323f75;
+    text-decoration: underline;
+  }
+  
+  .source-list a:hover {
+    text-decoration: none;
+  }
   
     
