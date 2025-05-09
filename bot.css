@@ -1,0 +1,70 @@
+.option-btn {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 18px;
+    background: #f0f0f0;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.option-btn:hover {
+    background: #d2e1fa;
+}
+.bot-question {
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+.user-choice {
+    margin: 10px 0;
+    color: #555;
+}
+.bot-summary {
+    margin: 16px 0;
+    background: #e6f7e6;
+    padding: 12px;
+    border-radius: 6px;
+}
+.bot-container {
+    max-width: 550px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-family: Arial, sans-serif;
+    color: black;
+  }
+.options-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically; use 'row' for horizontal */
+    align-items: flex-end;  /* Aligns all buttons to the right */
+    width: 100%;
+}
+
+.bot-row {
+    display: flex;
+    align-items: center;      /* Vertically center image and box */
+    justify-content: center;  /* Horizontally center the whole row */
+    gap: 5px;                /* Space between image and bot-container */
+    margin-top: 40px;
+}
+  
+.bot-image {
+    width: 420px;
+    height: auto;
+
+}
+
+.bot-content-box {
+    background-color: white;
+    color: black;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Nunito', serif;
+    line-height: 1.6;
+}
