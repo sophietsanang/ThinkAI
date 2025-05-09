@@ -1,0 +1,438 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', serif;
+}
+
+.split-background {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Top half */
+.top-half {
+    background-color: #323f75;
+    height: 600vh;
+    width: 100%;
+}
+
+
+h1 {
+    font-size: 3em; 
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+    color: black;
+    text-align: center;
+    margin-top: -30px;
+    
+}
+
+h3 {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h6 {
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+h5 {
+    color: black;
+    text-align: center;
+    margin-top: -30px;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+
+
+.thinkai-title {
+    font-size: 3em;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 35px;
+}
+
+
+
+
+
+.boxes-container {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: nowrap; 
+    padding: 20px;
+    overflow-x: auto; 
+}
+
+
+
+.box {
+    width: 350px; 
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    flex-shrink: 0; 
+}
+
+
+.box-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    padding-top: -5px;
+    
+}
+
+
+.box1 {
+    background-color: white;
+    border: 2px solid;
+} 
+
+.box3 .box-title {
+    padding-top: 20px;
+}
+
+
+
+.box2 {
+    background-color: white;
+    border: 2px solid;
+    
+}
+
+.quiz-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+.question {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.answers button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border: 2px solid black;
+  background-color: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: 20px;
+}
+
+.answers button:hover {
+  background-color: #f0f0f0;
+}
+
+
+
+.box3 {
+    background-color: white;
+    border: 2px solid;
+} 
+
+.box-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.box2 .box-image {
+    width: 100%;   
+    height: auto;  
+    
+}
+
+.box3 .box-image {
+    width: 100%; 
+    height: auto; 
+    padding-top: 20px;
+    
+} 
+
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-link:hover .box {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.lesson2 {
+    background-color: #323f75;
+    color: white;
+}
+
+
+.navbar {
+    background-color: #323f75;
+    padding: 1rem 2rem;
+    font-family: 'Nunito', serif;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    color: white;
+  }
+  
+
+.nav-links a {
+    text-decoration: underline;
+    color: white;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+  
+  
+.nav-links a:hover {
+    color: #ccc;
+}
+  
+.divider {
+    color: yellow;
+    margin: 0 10px;
+}
+
+.lesson-content-box {
+    background-color: white;
+    color: black;
+    max-width: 1550px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Nunito', serif;
+    line-height: 1.6;
+}
+
+
+.lesson-section-title {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+.lesson-subheading {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #323f75;
+}
+
+.lesson-bullet-title {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin: 0 auto 20px auto;
+    padding-left: 60px;
+  }
+  
+  .lesson-content-box-second ul {
+    padding-left: 120px;
+    margin-bottom: 15px;
+    list-style-type: disc;
+  }
+  
+  .lesson-content-box-second p {
+    text-align: left;
+    margin: 0 auto 20px auto;
+    max-width: 40000px;
+  }
+
+.lesson-content-box p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: black;
+  text-align: left;
+  padding: 0 60px;
+}
+
+.lesson-content-box-second {
+    background-color: white;
+    color: black;
+    max-width: 1550px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Nunito', serif;
+    line-height: 1.6;
+    border: 2px solid black;
+   
+}
+
+.lesson-video {
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+  
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    text-decoration: underline;
+    color: white;
+    margin: 0 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    min-width: 260px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    top: 100%;
+    left: 0;
+  }
+  
+  .dropdown-content a {
+    color: #323f75;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: normal;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .nav-button-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 1550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 5px; 
+  }
+  
+  .nav-button {
+    display: inline-block;
+    color: black;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .feedback {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    text-align: center;
+    min-height: 50px;          
+  }
+
+  .next-container {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+
+  .next-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+  }
+  
+  .next-btn:hover {
+    background-color: black;
+    color: white;
+  }
+  
+    
