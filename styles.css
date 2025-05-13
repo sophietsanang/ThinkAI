@@ -1,7 +1,55 @@
 body {
     margin: 0;
-    font-family: 'Nunito', serif;
+    font-family: 'Inria Sans', sans-serif;
+    background: linear-gradient(to bottom, #5869ac 0%, #5869ac 50%, #293255 50%, #293255 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
 }
+.top-subheading {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-size: 0.9em;
+  font-weight: normal;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  line-height: 1.2;
+}
+
+
+.hero-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  
+  flex-wrap: wrap;
+}
+
+.hero-left {
+  flex: 1;
+  min-width: 250px;
+}
+
+.hero-right {
+  flex: 0 0 66.66%; /* explicitly 2/3 width */
+  text-align: left;
+  padding-top: 130px; /* align with h1 */
+}
+
+
+.hero-right h3 {
+  color: white;
+  font-size: 1.4em;      /* smaller */
+  max-width: 100%;       /* fill full width of hero-right */
+  margin-left: 30px;     /* match THiNKAi left offset */
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+
 
 .split-background {
     display: flex;
@@ -11,23 +59,33 @@ body {
 
 /* Top half */
 .top-half {
-    background-color: #323f75;
+    /*background-color: #323f75;*/
     height: 600vh;
     width: 100%;
+}
+.bottom-half {
+  /*background-color: #0e153f;*/
+  min-height: 50vh;
+  width: 100%;
 }
 
 
 h1 {
-    font-size: 3em; 
-    color: black;
-    text-align: center;
-    padding-top: 20px;
-    font-weight: bold;
+  font-size: 6em; 
+  color: white;
+  text-align: left;
+  padding-top: 60px;
+  margin-left: 30px;
+  font-weight: 300;
+  margin-bottom: 0;
+  
 }
+
+
 
 h2 {
     font-size: 2em;
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
     margin-top: -30px;
     
@@ -46,7 +104,7 @@ h6 {
 }
 
 h5 {
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
     margin-top: -30px;
     font-size: 1.3em;
@@ -215,7 +273,7 @@ h5 {
 .navbar {
     background-color: #323f75;
     padding: 1rem 2rem;
-    font-family: 'Nunito', serif;
+    font-family: 'Inria Sans', sans-serif;
     font-size: 1.1rem;
     display: flex;
     justify-content: space-between; 
@@ -253,7 +311,7 @@ h5 {
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    font-family: 'Nunito', serif;
+    font-family: 'Inria Sans', sans-serif;
     line-height: 1.6;
 }
 
@@ -312,7 +370,7 @@ h5 {
     padding: 40px;
     border-radius: 30px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    font-family: 'Nunito', serif;
+    font-family: 'Inria Sans', sans-serif;
     line-height: 1.6;
     border: 2px solid black;
    
